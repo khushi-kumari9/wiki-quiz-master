@@ -1,75 +1,52 @@
-# Welcome to your Lovable project
 
-## Project info
+ # Wiki Quick Quiz (AI Experiment)
 
-**URL**: https://lovable.dev/projects/f39e54cb-f0a9-492c-8970-02eb07431908
+This project is a **learning experiment** in AI-assisted full-stack development.  
+The purpose was to explore how AI can help generate frontend and backend code for a Wikipedia-based quiz application.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Project Overview
 
-**Use Lovable**
+Wiki Quick Quiz allows users to:
+- Input a Wikipedia article URL.
+- Generate multiple-choice quizzes based on the article content.
+- View suggested related topics.
+- Track past quizzes (history tab with details modal).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f39e54cb-f0a9-492c-8970-02eb07431908) and start prompting.
+> Note: The frontend (React, TypeScript, Vite) and backend (FastAPI/Django, PostgreSQL) were generated with the help of AI.  
+> This project is for **learning and experimentation purposes only**.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## Tech Stack
+- Frontend: React + Vite + TypeScript (AI-assisted)
+- Backend: FastAPI/Django (AI-assisted)
+- Database: PostgreSQL
+- Web scraping: BeautifulSoup
+- LLM integration: Gemini API via LangChain
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## What I Learned
+- How AI can scaffold full-stack applications.
+- Integration of frontend, backend, and database.
+- Use of LLMs to generate quizzes and related topics.
+- Basic project deployment and organization on GitHub.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## How to Explore
+1. Clone the repository:
+```bash
+git clone <YOUR_REPO_URL>
 
 ## What technologies are used for this project?
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+## Note for Recruiters / Visitors
 
-Simply open [Lovable](https://lovable.dev/projects/f39e54cb-f0a9-492c-8970-02eb07431908) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-
-## experiment with ai for AI-assisted full-stack development. I’m learning how AI can help speed up development and how to integrate frontend and backend.
+## This project demonstrates AI-assisted learning and experimentation.
+## All code is AI-generated, and my focus was on understanding the integration and learning full-stack development.
+## It is not submitted as a portfolio project, but serves as a demonstration of AI-assisted workflows.
